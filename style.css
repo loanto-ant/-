@@ -319,8 +319,17 @@ audio::-webkit-media-controls-panel{
     margin: 15px;
 }
 
-/*Mobile-Songs*/
+/*Mobile*/
 @media (max-width: 545px){
+    /*Irgendwie alles*/
+    .splash{
+        display: none;
+    }
+    :root{
+        --blur: 0px;
+        --shadow: 4px 4px 25px rgba(0, 0, 0, 0.53);
+    }
+    /*Songs*/
     .songs-gesamt{
         justify-content: center;
     }
