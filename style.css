@@ -256,7 +256,6 @@ audio::-webkit-media-controls-panel{
 }
 
 .dienst-einzeln:hover{
-    
     transform: scale(1.1);
 }
 /*Info*/
@@ -363,6 +362,10 @@ audio::-webkit-media-controls-panel{
     }
     .youtube, .soundcloud{
         display: none;
+    }
+    /*Social*/
+    .dienst-einzeln:hover{
+        transform: scale(1);
     }
 }
 /*only Firefox*/
