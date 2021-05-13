@@ -31,7 +31,7 @@ html, body{
     scrollbar-color: var(--font-color) rgb(55, 138, 145);
 }
 body{
-    background-size: contain;
+    background-size: 100vw 120vh;
     background-image: linear-gradient(#00c2ae, #08314D);
     background-attachment: fixed;
     
